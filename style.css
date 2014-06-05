@@ -389,7 +389,7 @@ body{ background:url("images/body.png") #f0ece1; color:#a0a0a0; font:13px 'Droid
 #main-content h4 { font-size:16px; line-height:32px; }
 #main-content img  { margin-bottom:15px; border:6px solid #fafafa; box-shadow:0px 0px 0px 1px #e6e6e6; -moz-box-shadow:0px 0px 0px 1px #e6e6e6; -webkit-box-shadow:0px 0px 0px 1px #e6e6e6;}
 #main-content img:hover { border-color:#eaeaea; transition:all 0.3s; -moz-transition:all 0.3s; -webkit-transition:all 0.3s; }
-#main-content p  { color:#a0a0a0; font-size:13px; line-height:20px;}
+#main-content p  { color:#824328; font-size:13px; line-height:20px;}
 #main-content h2.title-heading,
 #main-content h4, 
 #main-content p{ margin-bottom:15px;}
