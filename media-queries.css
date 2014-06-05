@@ -1,0 +1,531 @@
+/* Tablet Portrait size 768 to standard 979 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 979px) {		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Layouts
+	/*-------------------------------------------------------------------------------------------------------*/
+	#container {width:730px; padding:5px;}
+	.content   {width:648px; padding:0px 40px;}	
+	#sidebar   {  width:218px; padding:20px 32px 50px 0px;}	
+	#main-content { width:398px; padding:16px 0px 50px;}
+		
+	/* Sidebar Rigth  ------------------------------------------------------------------------------------*/
+	.content.right #sidebar      { float:right;   width:208px;  padding:20px 0px 50px 32px;}
+	.content.right #main-content { float:left;    width:398px;  padding:12px 0px 50px; margin-right:0px;}
+	
+	
+	 
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Header
+	/*-------------------------------------------------------------------------------------------------------*/
+	#header{width:740px;}
+	#header #logo { width:184px; margin:20px auto 0px;}			
+	#header h6 { right:0px; }	
+	#header .main-menu.left{ left:0px;}
+	#header .main-menu.right{ right:-22px;}
+	#header nav ul li{ padding-right:10px;}		
+	#header ul li a { font-size:14px; padding-right:10px;}
+	#header ul li > ul {  top:40px; }
+	
+	
+				
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Home Page
+	/*-------------------------------------------------------------------------------------------------------*/
+					 
+		/* Bottom Strip --------------------------------------------------------------------*/	
+		.bottom-strip { width:740px;}
+		
+		/* Template Items --------------------------------------------------------------------*/
+		ul.template-items { margin:0px 0px 25px -30px;}		
+		ul.template-items li {width:196px; margin-left:30px; }
+		ul.template-items li figure { background-color:#f0f1f2; padding: 5px 3px 5px 5px;  margin:0px 0px 20px 1px; }
+		ul.template-items li a img { width:179px; height:auto;}
+			
+		/* Carousel --------------------------------------------------------------------*/
+		#carousel { width: 648px;}		
+		.es-carousel { width:608px; height: 170px;}	
+		.es-carousel li {  width:92px !important;}
+		
+		
+					
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Footer
+	/*-------------------------------------------------------------------------------------------------------*/
+	#footer{ width:740px; padding:18px 0px 59px; }	
+	#footer ul li { margin-right:12px;}
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	About Us Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	#main-content article img { width:384px; height:auto; }
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Contact Us Page
+	/*-------------------------------------------------------------------------------------------------------*/	
+	#map_canvas { width:383px; height: 250px; margin-left:1px;}	
+	.contact-form { width:396px; padding-left:2px;}
+	.contact-form p.name,
+	.contact-form p.email { margin-right:0px;}
+	.contact-form p { float:none; width:100%;}
+	.contact-form input[type="text"] { width:212px;}
+	.contact-form #message { width:370px;}
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Our Menu Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.our-menu article  { padding:18px 0px; }	
+	.our-menu #main-content article  img {width:110px; height:auto;  margin: 5px 13px 15px 1px; }	
+	.our-menu article .post-content { width:198px;}
+	
+	
+	
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Event Listing Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.event-listing article .post-content { width:322px;}
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Event Listing Page
+	/*-------------------------------------------------------------------------------------------------------*/		
+	.event-single .date { margin: 0px 18px 2px 1px; }
+	
+	
+	
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	News Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.news article { text-align:center;}	
+	.news .date { margin:0; }	
+	.news .post-head {width:242px;}	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	18. Comments
+	/*-----------------------------------------------------------------------------------*/	
+	#comments .comment .avatar { width:60px; height:60px;}	
+	#comments .comment .comment-body, 
+	#comments .comment .comment-meta { width: 78%; text-align:left; }	
+	#comments .comment .children .comment:first-child { margin-top: 0; }
+	#comments .commentlist .children .depth-2 .comment-body, 
+	#comments .commentlist .children .depth-2 .comment-meta { width: 72%; }
+	#comments .commentlist .children .depth-3 .comment-body, 
+	#comments .commentlist .children .depth-3 .comment-meta { width: 62%; }
+	#comments .commentlist .children .depth-4 .comment-body, 
+	#comments .commentlist .children .depth-4 .comment-meta { width: 50%; }
+	#comments .commentlist .children .depth-5 .comment-body, 
+	#comments .commentlist .children .depth-5 .comment-meta { width: 42%; }
+
+	
+}
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Layouts 
+	/*-------------------------------------------------------------------------------------------------------*/	
+	#container {width:430px; padding:5px;}
+	.content   {width:348px; padding:0px 40px; } 
+	#sidebar   {  width:348px; padding:25px 0px; text-align:center;}	
+	#main-content { width:348px; padding:0px 0px 40px;  background:url("images/sep-line-stars.png") no-repeat center bottom;  text-align:center; }
+		
+	/* Sidebar Rigth  ------------------------------------------------------------------------------------*/
+	.content.right #sidebar      { float:right; background:none; width:348px; padding:25px 0px; }
+	.content.right #main-content { float:left;    width:348px;  margin-right:0px;}		
+	#sidebar .widget{ width:100%; margin:0px auto 15px; text-align:center; }
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Header
+	/*-------------------------------------------------------------------------------------------------------*/	
+	#header{width:440px; padding:12px 0px 10px; height:auto;}
+		
+		/* Logo ----------------------------------------------------------------------*/
+		#header #logo { width:194px;  margin:0px auto 15px; }	
+		#header h6 { position:static; margin-bottom:10px; text-align:center; }
+		#header .main-menu.left{  position:static; margin:0px auto 10px; display:none;}
+		#header .main-menu.right{ position:static; margin:0px auto 10px;}
+		#header nav ul { text-align:center; display:none;}		
+		#header .main-menu { background-color:#fde69f; width: 98%; margin:0px auto; padding:5px; border:1px solid #191919;   border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+		#header .main-menu .responsive-nav { width:100%; display: block;  margin:0px auto;  border:1px solid #fde6a4; }
+		
+		
+							
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Home Page
+	/*-------------------------------------------------------------------------------------------------------*/
+			
+							 
+		/* Bottom Strip --------------------------------------------------------------------*/		
+		.bottom-strip { width:440px;}		
+		.bottom-strip p { font-size:0px; line-height:15px; padding:4px 0px;} 
+	    .bottom-strip p a { padding:5px 10px; font-size:12px; margin-top:9px;}
+				
+	    /* Template Items --------------------------------------------------------------------*/
+		ul.template-items { margin:0px 0px 25px 0px;}		
+		ul.template-items li {width:348px; margin:0px 0px 20px 0px; text-align:center;  border-bottom:1px solid #fce2af; padding-bottom:20px;}
+		ul.template-items li figure { padding: 5px 3px 5px 5px;  margin:0px 0px 20px 1px; }
+		ul.template-items li a img { width:223px; height:auto;}
+					
+		/* Carousel --------------------------------------------------------------------*/
+		#carousel { width: 350px;}		
+		.es-carousel { width:310px; height: 170px;}	
+	    .es-carousel li {  width:95px !important;}
+		
+		
+						
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Footer
+	/*-------------------------------------------------------------------------------------------------------*/
+	#footer{ width:440px;}	
+	#footer ul li { margin:0px 12px 10px 0px;  display:inline-block;}	
+	#footer nav ul { text-align:center; display:none;}
+	#footer #footer-menu { background-color:#fde69f; width: 98%; margin:0px auto 25px; padding:5px; border:1px solid #191919;   border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+	#footer #footer-menu .responsive-nav { width:100%; display: block;  margin:0px auto;  border:1px solid #fde6a4;  }
+	
+	
+	
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	About Us Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	#main-content article img { width:334px; height:auto; }
+	.widget ul li { background:none;}
+	
+	/* 7.1 Article --------------------------------------------------------------------*/
+	article ol,
+	article ul{ text-align:left;}
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Contact Us Page
+	/*-------------------------------------------------------------------------------------------------------*/	
+	#map_canvas { width:323px; height: 323px; margin-left:1px;}	
+	.contact-form { width:346px; padding-left:2px;}
+	.contact-form p.name,
+	.contact-form p.email { margin-right:0px;}
+	.contact-form p { float:none; width:100%;}
+	.contact-form input[type="text"] { width:212px;}
+	.contact-form #message { width:330px;}    
+	#sidebar .contact-details ul li.p-book{ background:none;}
+    #sidebar .contact-details ul li.list-mail-icon {background:none;}
+    #sidebar .contact-details ul li.list-phone-icon {background:none;}	
+	.contact-form #contact-loader{ left:250px;}
+	#reservation-form .contact-form #contact-loader{ left:285px;}
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Our Menu Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.our-menu #main-content article  img {width:110px; height:auto; margin:0px auto 15px;  }	
+	.our-menu article .post-content { width:100%; text-align:center;  }
+	.our-menu #main-content .post-content  p { margin-bottom:15px;}	
+	.our-menu  article .price { margin:0px auto 0px;}
+    .our-menu #main-content article  img,
+	.our-menu article .post-content,
+	.our-menu  article .price { float:none; }
+		
+	/* Sidebar Social Nav --------------------------------------------------------------------*/
+	#sidebar .social ul {  text-align:center;}
+	#sidebar .social li { display:inline; float:none;  vertical-align: top;}
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Event Listing Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.date { float:none; margin:0px auto 5px;}	
+	.event-listing article .post-content { float:none; width:100%; text-align:center;}
+	
+	
+	
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Event Listing Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.event-single .date { float:none; margin: 0px auto 25px;}	
+	.event-single article{ text-align:center;}
+	.event-single article small span.left { margin-left:2px; display:inline-block;} 
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	News Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.news article { text-align:center;}	
+	.news .date { float:none; margin:0px auto; }	
+	.news .post-head {width:100%;}	
+    .comment-count   { float:none; margin:0px auto 15px; padding:0px; background:none;}
+	.news article a.read-more-content {float:none; }
+	
+	
+		
+	/*-----------------------------------------------------------------------------------*/
+    /*	Columns Style
+    /*-----------------------------------------------------------------------------------*/
+	.columns { margin: 0px 0px 0px -2%; overflow: hidden; }
+	.columns .one-third { width: 100%;margin: 0px 0px 0px 2%; float: left; }
+	.columns .two-third { width: 100%; margin: 0px 0px 0px 2%; float: left; }
+	.columns .one-fourth { width: 100%; margin: 0px 0px 0px 2%; float: left; }
+	.columns .three-fourth { width: 100%; margin: 0px 0px 0px 2%; float: left; }
+	.columns .one-half { width: 100%; margin: 0px 0px 0px 2%; float: left; }
+	.columns .single-col { width: 100%; margin: 0px 0px 0px 2%; }
+	
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*	18. Comments
+	/*-----------------------------------------------------------------------------------*/	
+	#comments .commentlist .children {  padding: 0px; position: relative; }	
+	#comments .comment .avatar { width:60px; height:60px; float:none;}	
+	#comments .comment .comment-body, 
+	#comments .comment .comment-meta { float: none; width: 100%; padding:0px;}	
+	#comments .commentlist .children .depth-2 .comment-body, 
+	#comments .commentlist .children .depth-2 .comment-meta, 
+	#comments .commentlist .children .depth-3 .comment-body, 
+	#comments .commentlist .children .depth-3 .comment-meta,
+	#comments .commentlist .children .depth-4 .comment-body, 
+	#comments .commentlist .children .depth-4 .comment-meta, 
+	#comments .commentlist .children .depth-5 .comment-body, 
+	#comments .commentlist .children .depth-5 .comment-meta { width: 100%; padding:0px; }
+	
+	#main-content .captcha-container label { display:block; }
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px){
+
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Layouts diffrence 320
+	/*-------------------------------------------------------------------------------------------------------*/
+	#container {width:280px; padding:5px;}
+	.content   {width:238px; padding:0px 20px; }
+	#main-content { width:238px; padding:0px 0px 40px; background:url("images/sep-line-stars.png") no-repeat center bottom; text-align:center; }
+	#sidebar   {  width:238px; padding:25px 0px; text-align:center;}
+		
+	/* Sidebar Rigth  ------------------------------------------------------------------------------------*/
+	.content.right #sidebar      { float:right; background:none; width:238px; padding:25px 0px; }
+	.content.right #main-content { float:left;    width:238px;  margin-right:0px;}			
+	#sidebar .widget{ width:100%; text-align:center;}
+	
+	
+			
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Header
+	/*-------------------------------------------------------------------------------------------------------*/
+	#header{width:290px; padding:12px 0px 10px; height:auto;}
+		
+		/* Logo ----------------------------------------------------------------------*/
+		#header #logo {
+	width: 300px;
+	margin: 0px auto 15px;
+}	
+		#header h6 { position:static; margin-bottom:8px; text-align:center; }		
+		#header .main-menu.left{  position:static; margin:0px auto 10px; display:none;}
+		#header .main-menu.right{ position:static; margin:0px auto 10px;}
+		#header nav ul { text-align:center; display:none;}
+		#header .main-menu { background-color:#fde69f; width: 98%; margin:0px auto; padding:5px; border:1px solid #191919;   border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+		#header .main-menu .responsive-nav { width:100%; display: block;  margin:0px auto;  border:1px solid #fde6a4; }	
+		
+		
+						
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Home Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	
+						
+		/* Slider Nav --------------------------------------------------------------------*/
+		.flex-direction-nav li a { position:absolute; top:50%;  width:17px; height:32px; margin-top:-16px;  background:url("images/slider-nav-2.png") no-repeat 0px 0px;  }
+		.flex-direction-nav li a.flex-next {background-position: -25px 0px; right:-6px;}		
+		.flex-direction-nav li a.flex-prev {background-position: 0px 0px; left:0px;}
+		.flex-direction-nav li a.flex-next:hover { background-position:-25px 0px;}	
+		.flex-direction-nav li a.flex-prev:hover { background-position:0px 0px;}
+							 
+		/* Bottom Strip --------------------------------------------------------------------*/	
+		.bottom-strip { width:290px;}		
+		.bottom-strip p { font-size:11px; line-height:15px; padding:6px 0px;} 
+	    .bottom-strip p a { padding:4px 6px 2px ; font-size:12px;}
+				
+	    /* Template Items --------------------------------------------------------------------*/
+		ul.template-items { margin:0px 0px 25px 0px;}		
+		ul.template-items li {width:238px; margin:0px 0px 20px 0px; text-align:center;  border-bottom:1px solid #fce2af; padding-bottom:20px;}
+		ul.template-items li figure { padding: 5px 3px 5px 5px;  margin:0px 0px 20px 1px; }
+		ul.template-items li a img { width:221px; height:auto;}
+					
+		/* Carousel --------------------------------------------------------------------*/
+		#carousel { width: 238px;}		
+		.es-carousel { width:206px; height: 170px;}	
+	    .es-carousel li {  width:95px !important;}
+					
+	    /* Blockquote --------------------------------------------------------------------*/
+		blockquote { background:url("images/quote-icon.png") #f9f9f9 no-repeat 10px 10px ; padding:60px 10px 15px 25px;  text-align:left;}
+		blockquote p {  margin-bottom:10px; }
+		blockquote p.author{ text-align:right; }
+		blockquote span.text-highlight { color:#d2ae7e; display:block;}
+		
+		
+						
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Footer
+	/*-------------------------------------------------------------------------------------------------------*/
+	#footer{ width:290px; padding:18px 0px 59px; }	
+	#footer ul li { margin:0px 12px 10px 0px;  display:inline-block;}	
+	#footer nav ul { text-align:center; display:none;}
+	#footer #footer-menu { background-color:#fde69f; width: 98%; margin:0px auto 25px; padding:5px; border:1px solid #191919;   border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+	#footer #footer-menu .responsive-nav { width:100%; display: block;  margin:0px auto;  border:1px solid #fde6a4;  }
+	
+	
+	
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	About Us Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	#main-content article img { width:224px; height:auto; }
+	.widget ul li { background:none;}
+		
+	/* 7.1 Article --------------------------------------------------------------------*/
+	article ol, article ul{  text-align:left;}
+	
+	
+		
+    /*-------------------------------------------------------------------------------------------------------*/
+	/*	Team Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.team-page section img { width:224px; height:auto; }
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Contact Us Page
+	/*-------------------------------------------------------------------------------------------------------*/	
+	#map_canvas { width:223px; height: 223px; margin-left:1px;}	
+	.contact-form { width:236px; padding-left:2px;}
+	.contact-form p.name,
+	.contact-form p.email { margin-right:0px;}
+	.contact-form p { float:none; width:100%;}
+	.contact-form input[type="text"], 
+	.contact-form #message { width:220px;}	
+	#sidebar .contact-details ul li.p-book{ background:none;}
+    #sidebar .contact-details ul li.list-mail-icon {background:none;}
+    #sidebar .contact-details ul li.list-phone-icon {background:none;}
+	.contact-form #contact-loader{ left:188px;}
+	#reservation-form .contact-form #contact-loader{ left:210px;}
+	
+	
+	
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Our Menu Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.our-menu #main-content article  img {width:110px; height:auto; margin:0px auto 15px;  }	
+	.our-menu article .post-content { width:100%; text-align:center;  }
+	.our-menu #main-content .post-content  p { margin-bottom:15px;}	
+	.our-menu  article .price { margin:0px auto 0px;}
+    .our-menu #main-content article  img,
+	.our-menu article .post-content,
+	.our-menu  article .price { float:none; }
+		
+	/* Sidebar Social Nav --------------------------------------------------------------------*/
+	#sidebar .social ul {  text-align:center;}
+	#sidebar .social li { display:inline; float:none;  vertical-align: top;}
+	
+	
+			
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Event Listing Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.date { float:none; margin:0px auto 0px;}	
+	.event-listing article .post-content { float:none; width:100%; text-align:center;}
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	Event Listing Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.event-single .date { float:none; margin: 0px auto 25px;}	
+	.event-single article{ text-align:center;}
+	.event-single article small span.left { margin-left:2px; display:inline-block;}
+	
+	
+		
+	/*-------------------------------------------------------------------------------------------------------*/
+	/*	News Page
+	/*-------------------------------------------------------------------------------------------------------*/
+	.news article { text-align:center;}	
+	.news .date { float:none; margin:0px auto; }	
+	.news .post-head {width:100%;}	
+    .comment-count   { float:none; margin:0px auto 15px; padding:0px; background:none;}
+	.news article a.read-more-content {float:none; }
+			
+	/* 16.2 Tabs Styles -----------------------------------------------------------------------------------*/
+	.tabs-nav li a { padding: 0 2px;}
+	
+	
+			
+	/*-----------------------------------------------------------------------------------*/
+    /*	Columns Style
+    /*-----------------------------------------------------------------------------------*/
+	.columns { margin: 0px 0px 0px -2%; overflow: hidden; }
+	.columns .one-third { width: 100%;margin: 0px 0px 0px 2%; float: left; }
+	.columns .two-third { width: 100%; margin: 0px 0px 0px 2%; float: left; }
+	.columns .one-fourth { width: 100%; margin: 0px 0px 0px 2%; float: left; }
+	.columns .three-fourth { width: 100%; margin: 0px 0px 0px 2%; float: left; }
+	.columns .one-half { width: 100%; margin: 0px 0px 0px 2%; float: left; }
+	.columns .single-col { width: 100%; margin: 0px 0px 0px 2%; }
+	
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*	18. Comments
+	/*-----------------------------------------------------------------------------------*/	
+	#comments .commentlist .children {  padding: 0px; position: relative; }		
+	#comments .comment .avatar { width:60px; height:60px; float:none;}
+	#comments .comment .comment-body,	
+	#comments .comment .comment-meta { float: none; width: 100%; padding:0px;}	
+	#comments .commentlist .children .depth-2 .comment-body, 
+	#comments .commentlist .children .depth-2 .comment-meta, 
+	#comments .commentlist .children .depth-3 .comment-body, 
+	#comments .commentlist .children .depth-3 .comment-meta,
+	#comments .commentlist .children .depth-4 .comment-body, 
+	#comments .commentlist .children .depth-4 .comment-meta, 
+	#comments .commentlist .children .depth-5 .comment-body, 
+	#comments .commentlist .children .depth-5 .comment-meta { width: 100%; padding:0px; }
+		
+		
+	#main-content .captcha-container label { display:block; }
+}
+/* Opera */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+  #sidebar .social li {vertical-align: middle;}
+}
+
+/* Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0){
+	#comments .comment .avatar { border:none;}
+}
+
+/* --------------------------------------------------------------
+   Responsive Tables by ZURB
+   Foundation v2.1.4 http://foundation.zurb.com  by ZURB 
+   -------------------------------------------------------------- */	
+@media only screen and (max-width: 767px) {
+	
+	table.responsive { margin-bottom: 0; }	
+	.pinned { position: absolute; left: 0; top: 0; background: #fff; width: 35%; overflow: hidden; overflow-x: scroll; border-right:1px solid #fbdfaa; border-left: 1px solid #fbdfaa; }
+	.pinned table { border-right: none; border-left: none; width: 100%; }
+	.pinned table th, .pinned table td { white-space: nowrap; }
+	.pinned td:last-child { border-bottom: 0; }	
+	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right:1px solid #fbdfaa; }
+	div.table-wrapper div.scrollable table { margin-left: 35%; }
+	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }	
+	table.responsive td, table.responsive th { position: relative; white-space: nowrap; overflow: hidden; }
+	table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td { display: none; }
+	
+}
